@@ -2,7 +2,7 @@ import { game, circle, text, centeredText, rectangle } from "./components.js";
 import { getBestScore, setBestScore } from "./bestscore.js";
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register("/sw.js");
+    navigator.serviceWorker.register("./sw.js");
 }
 
 game.init();
